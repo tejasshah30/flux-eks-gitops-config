@@ -1,7 +1,7 @@
 apiVersion: v1
 data:
   # AWS Load Balancer Controller configuration values - substitute with your resource ids
-  awsLoadBalancerControllerIamRoleArn: arn:aws:iam::012345678910:role/my-iam-role
+  awsLoadBalancerControllerIamRoleArn: arn:aws-us-gov:iam::247317488093:role/AWSLoadBalancerControllerIAMPolicy
   clusterName: my-eks-cluster
 kind: ConfigMap
 metadata:
