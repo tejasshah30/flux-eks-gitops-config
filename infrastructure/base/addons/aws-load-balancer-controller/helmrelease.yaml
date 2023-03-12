@@ -26,3 +26,4 @@ spec:
       annotations:
         eks.amazonaws.com/role-arn: ${awsLoadBalancerControllerIamRoleArn}
     clusterName: ${clusterName}
+    image: 151742754352.dkr.ecr.us-gov-east-1.amazonaws.com/amazon/aws-load-balancer-controller:v2.4.1
