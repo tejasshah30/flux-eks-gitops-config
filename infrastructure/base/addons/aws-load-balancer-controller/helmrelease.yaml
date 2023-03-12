@@ -26,5 +26,7 @@ spec:
       annotations:
         eks.amazonaws.com/role-arn: ${awsLoadBalancerControllerIamRoleArn}
     clusterName: ${clusterName}
-    image.repository: 151742754352.dkr.ecr.us-gov-east-1.amazonaws.com/amazon/aws-load-balancer-controller
-    image.tag: v2.4.1
+    image:
+      repository: 151742754352.dkr.ecr.us-gov-east-1.amazonaws.com/amazon/aws-load-balancer-controller
+      tag: v2.4.1
+      pullPolicy: IfNotPresent
