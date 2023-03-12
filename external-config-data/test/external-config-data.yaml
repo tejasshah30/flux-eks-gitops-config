@@ -2,7 +2,7 @@ apiVersion: v1
 data:
   # AWS Load Balancer Controller configuration values - substitute with your resource ids
   awsLoadBalancerControllerIamRoleArn: arn:aws-us-gov:iam::247317488093:role/eksctl-advana-eks-cluster-addon-iamserviceac-Role1-BG51J397AKH7
-  clusterName: my-eks-cluster
+  clusterName: advana-eks-cluster
 kind: ConfigMap
 metadata:
   name: external-config-data
